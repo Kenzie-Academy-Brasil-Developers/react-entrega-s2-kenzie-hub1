@@ -8,7 +8,7 @@ import Modal from '@mui/material/Modal';
 import { Button, Box} from "@mui/material"
 
 const Dashboard = ({enviar}) => {
-    
+    // dashboard
     const [user, setUser] = useState(JSON.parse(localStorage.getItem("@KenzieHub:user")) || '')
 
     const [techs, setTechs] = useState(user.techs || [])
