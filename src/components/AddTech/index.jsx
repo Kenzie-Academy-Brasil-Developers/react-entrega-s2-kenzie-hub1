@@ -11,7 +11,7 @@
   import api from '../../services/api'
   
   const  AddTech = ( {newTechs, setOpen} ) => {
-  
+//   tech
       const [user, setUser] = useState(JSON.parse(localStorage.getItem("@KenzieHub:user")) || false)
       const [inputValue, setInputValue] = useState("Iniciante")
       const token = localStorage.getItem("@KenzieHub:token")
